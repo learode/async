@@ -1,5 +1,5 @@
 let promise = new Promise((resolve, reject) => {
-    resolve("Nigga")
+    reject("Nigga")
     // 
 })
 
@@ -11,7 +11,7 @@ promise.then(() => {
 })
 
 promise.catch(() => {
-    console.log('Why is this')
+    console.error('Why is this')
 })
 
 promise.finally(() => {
