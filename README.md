@@ -15,3 +15,13 @@ These methods are invoked by either a `resolve` or a `reject`.
 `reject` is called instead of `resolve`, the `.then` and `.catch` is executed but the html reports _uncaught in promise_ error
 
 ![Rejected promise](/assets/rejected%20promise.png)
+
+
+### Actuallity
+#### `resolve`
+takes an argument and returns it when the `.then` is called. ie. the `resolve` calls the `.then` and gives it the values passed into the `resolve`
+If the value passed in the `resolve` is a function the function is returned, if the value is any value, character, string then it is passed into the `.then`
+
+By so, the `.then` can have a function to handle the passed value or run the passed function.
+
+![Resolve returns any thing passed to it](/assets/resolve_returns.png)

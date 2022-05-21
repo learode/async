@@ -1,13 +1,14 @@
 let promise = new Promise((resolve, reject) => {
-    reject("Nigga")
-    // 
+    resolve((nigga) => {
+        console.log('does resolve take in functions?', nigga)
+    })
 })
 
 
 console.log(promise)
 
-promise.then(() => {
-    console.log('what the hell is this')
+promise.then((nigga) => {
+    console.log('what the hell is this', nigga)
 })
 
 promise.catch(() => {
