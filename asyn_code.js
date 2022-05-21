@@ -8,7 +8,8 @@ let promise = new Promise((resolve, reject) => {
 console.log(promise)
 
 promise.then((nigga) => {
-    console.log('what the hell is this', nigga)
+    // a function is recieved from resolve
+    nigga("that function was anyn and needed a parameter")
 })
 
 promise.catch(() => {
