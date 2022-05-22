@@ -24,11 +24,17 @@ If the value passed in the `resolve` is a function the function is returned, if 
 
 By so, the `.then` can have a function to handle the passed value or run the passed function.
 
+
 ![Resolve returns any thing passed to it](/assets/resolve_returns.png)
+
 Function passed is returned.
 
+
 ![Run a returned function](/assets/running_passed_function.png)
+
 Function passed call be executed in the `.then`
 
+
 ![String passed](/assets/string_passed.png)
+
 A string is easily received.
