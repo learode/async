@@ -28,3 +28,7 @@ By so, the `.then` can have a function to handle the passed value or run the pas
 Function passed is returned.
 
 ![Run a returned function](/assets/running_passed_function.png)
+Function passed call be executed in the `.then`
+
+![String passed](/assets/string_passed.png)
+A string is easily received.

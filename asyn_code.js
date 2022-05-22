@@ -1,15 +1,17 @@
 let promise = new Promise((resolve, reject) => {
-    resolve((nigga) => {
-        console.log('does resolve take in functions?', nigga)
-    })
+    
+    let name = 'mulfranck'
+
+    let now = Date.now()
+    
+    resolve(name + ' ' + now )
 })
 
 
 console.log(promise)
 
 promise.then((nigga) => {
-    // a function is recieved from resolve
-    nigga("that function was anyn and needed a parameter")
+   console.log('this nigga is just a string: ', nigga)
 })
 
 promise.catch(() => {
